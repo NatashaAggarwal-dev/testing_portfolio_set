@@ -96,12 +96,12 @@ const Home: React.FC = () => {
           className="mb-2"
         >
           <button
-            className="flex items-center justify-center bg-purple-600 hover:bg-purple-700 text-white p-4 rounded-full shadow transition-colors focus:outline-none"
+            className="flex items-center justify-center bg-purple-600 hover:bg-purple-700 text-white w-10 h-10 p-2 md:w-16 md:h-16 md:p-4 rounded-full shadow transition-colors focus:outline-none"
             aria-label="Download Resume"
             tabIndex={-1}
             style={{ pointerEvents: 'auto' }}
           >
-            <Download size={24} />
+            <Download className="w-5 h-5 md:w-6 md:h-6" />
           </button>
           {/* Swipe Track */}
           <motion.div
@@ -150,17 +150,17 @@ const Home: React.FC = () => {
           href="https://www.linkedin.com/in/natashaaggarwal03/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow transition-colors"
+          className="flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white w-10 h-10 p-2 md:w-16 md:h-16 md:p-4 rounded-full shadow transition-colors"
         >
-          <Linkedin size={24} />
+          <Linkedin className="w-5 h-5 md:w-6 md:h-6" />
         </a>
         <a
           href="https://github.com/NatashaAggarwal-dev"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center bg-gray-800 hover:bg-gray-900 text-white p-4 rounded-full shadow transition-colors"
+          className="flex items-center justify-center bg-gray-800 hover:bg-gray-900 text-white w-10 h-10 p-2 md:w-16 md:h-16 md:p-4 rounded-full shadow transition-colors"
         >
-          <Github size={24} />
+          <Github className="w-5 h-5 md:w-6 md:h-6" />
         </a>
       </div>
 
@@ -177,29 +177,29 @@ const Home: React.FC = () => {
         {/* Hero Section: Text on left, large image on right */}
         <div className="w-full flex flex-col md:flex-row items-center justify-between gap-8 md:gap-0 mt-8 md:mt-0 pb-8 min-h-[350px]">
           {/* Main Text (left) */}
-          <div className="flex-1 flex flex-col items-start justify-center text-left">
+          <div className="flex-1 flex flex-col items-start justify-center text-left w-full md:w-auto">
             <motion.h1
               variants={itemVariants}
-              className="text-5xl md:text-7xl font-bold mb-10 text-gradient leading-[1.15]"
+              className="text-3xl xs:text-4xl sm:text-5xl md:text-7xl font-bold mb-6 md:mb-10 text-gradient leading-[1.15] text-left w-full"
             >
               Natasha Aggarwal
             </motion.h1>
             <motion.p
               variants={itemVariants}
-              className="text-xl md:text-2xl text-gray-300 mb-4"
+              className="text-base xs:text-lg sm:text-xl md:text-2xl text-gray-300 mb-2 md:mb-4 w-full"
             >
               DevOps & Cloud Engineer
             </motion.p>
             <motion.p
               variants={itemVariants}
-              className="text-lg text-gray-400 mb-8 max-w-2xl"
+              className="text-sm xs:text-base sm:text-lg md:text-lg text-gray-400 mb-4 md:mb-8 max-w-2xl w-full"
             >
               Passionate about building secure, scalable systems and exploring the infinite possibilities of cloud technology
             </motion.p>
             {/* Info Boxes below text, limited to left side */}
             <motion.div
               variants={itemVariants}
-              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-2xl w-full mb-4"
+              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 max-w-2xl w-full mb-2 md:mb-4"
             >
               <motion.div
                 whileHover={{ y: -10 }}
@@ -228,11 +228,11 @@ const Home: React.FC = () => {
             </motion.div>
           </div>
           {/* Large Portfolio Image (right) */}
-          <div className="flex-1 flex items-end justify-center pb-2">
+          <div className="flex-1 flex items-end justify-center pb-2 w-full md:w-auto mt-8 md:mt-0">
             <motion.img
-              src="/src/All_logo_and_pictures-main/cloud/IMG_3928.png"
+              src="/All_logo_and_pictures-main/cloud/IMG_3928.png"
               alt="Natasha Aggarwal"
-              className="w-[420px] md:w-[520px] lg:w-[700px] h-auto object-contain"
+              className="w-48 xs:w-60 sm:w-72 md:w-[520px] lg:w-[700px] h-[260px] xs:h-[320px] sm:h-[400px] md:h-[700px] lg:h-[900px] object-cover mt-4 md:mt-12 rounded-xl shadow-lg"
               initial={{ opacity: 0, x: 80 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, type: 'spring' }}
@@ -271,12 +271,12 @@ const Home: React.FC = () => {
                 </div>
                 <div className="p-4 flex flex-col gap-4">
                   <img
-                    src="/resume/my_resume.png"
+                    src="/Resume/my_resume.png"
                     alt="Resume"
                     className="w-full h-auto max-h-[60vh] rounded-lg border border-gray-700 object-contain"
                   />
                   <a
-                    href="/resume/my_resume.pdf"
+                    href="/Resume/my_resume.pdf"
                     download
                     className="flex items-center justify-center space-x-2 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors"
                   >

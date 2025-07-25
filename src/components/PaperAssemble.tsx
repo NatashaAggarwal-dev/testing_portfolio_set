@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 
-const IMG_SRC = '/src/All_logo_and_pictures-main/cloud/IMG_3928.png'; // Portfolio image path
+const IMG_SRC = '/All_logo_and_pictures-main/cloud/IMG_3928.png'; // Portfolio image path
 const PIECES = 60;
 const DURATION = 2000; // 2 seconds for wind phase
 const SIZE = 260; // Final image size

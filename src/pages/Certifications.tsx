@@ -14,8 +14,8 @@ const Certifications: React.FC = () => {
       category: 'Cloud',
       description: 'Comprehensive cloud computing certification covering AWS core services',
       badge: '☁️',
-      image: '/src/All_logo_and_pictures-main/cloud/amazon.svg',
-      certificateUrl: '/src/untitled folder/aws_graduate.png' // Add your actual certificate image URL
+      image: '/All_logo_and_pictures-main/cloud/amazon.svg',
+      certificateUrl: '/untitled folder/aws_graduate.png' // Add your actual certificate image URL
     },
     {
       title: 'Red Hat OpenStack',
@@ -24,8 +24,8 @@ const Certifications: React.FC = () => {
       category: 'Infrastructure',
       description: 'OpenStack cloud platform administration and deployment',
       badge: '🔴',
-      image: '/src/All_logo_and_pictures-main/cloud/redhat.svg',
-      certificateUrl: '/src/untitled folder/redhat_oopenstack.png'
+      image: '/All_logo_and_pictures-main/cloud/redhat.svg',
+      certificateUrl: '/untitled folder/redhat_oopenstack.png'
     },
     {
       title: 'Java EE Certification',
@@ -34,8 +34,8 @@ const Certifications: React.FC = () => {
       category: 'Development',
       description: 'Enterprise Java development and application architecture',
       badge: '☕',
-      image: '/src/All_logo_and_pictures-main/programming languages/java.svg',
-      certificateUrl: '/src/untitled folder/java ee.png'
+      image: '/All_logo_and_pictures-main/programming languages/java.svg',
+      certificateUrl: '/untitled folder/java ee.png'
     },
     {
       title: 'EXIN Cloud Computing',
@@ -43,9 +43,9 @@ const Certifications: React.FC = () => {
       date: '2023',
       category: 'Cloud',
       description: 'Cloud computing fundamentals and service models',
-      badge: '🌥️',
-      image: '/src/All_logo_and_pictures-main/cloud/cloud.svg',
-      certificateUrl: '/src/untitled folder/exin.png'
+      badge: '��️',
+      image: '/All_logo_and_pictures-main/cloud/cloud.svg',
+      certificateUrl: '/untitled folder/exin.png'
     },
     {
       title: 'IBM Networking & Storage',
@@ -54,8 +54,8 @@ const Certifications: React.FC = () => {
       category: 'Infrastructure',
       description: 'Network infrastructure and storage solutions',
       badge: '🔗',
-      image: '/src/All_logo_and_pictures-main/cloud/ibm.svg',
-      certificateUrl: '/src/untitled folder/ibm.png'
+      image: '/All_logo_and_pictures-main/cloud/ibm.svg',
+      certificateUrl: '/untitled folder/IBM.png'
     },
     {
       title: 'AI & Business Strategy',
@@ -64,8 +64,8 @@ const Certifications: React.FC = () => {
       category: 'AI',
       description: 'Strategic implementation of AI in business environments',
       badge: '🤖',
-      image: '/src/All_logo_and_pictures-main/frameworks/ai.svg',
-      certificateUrl: '/src/untitled folder/AI AND BS.png'
+      image: '/All_logo_and_pictures-main/frameworks/ai.svg',
+      certificateUrl: '/untitled folder/AI AND BS.png'
     },
     {
       title: 'HTML/CSS/JavaScript',
@@ -74,8 +74,8 @@ const Certifications: React.FC = () => {
       category: 'Web Development',
       description: 'Modern web development with responsive design',
       badge: '🌐',
-      image: '/src/All_logo_and_pictures-main/programming languages/javascript.svg',
-      certificateUrl: '/Users/parveensingh/Desktop/project/src/untitled folder/HTML,CSS.png'
+      image: '/All_logo_and_pictures-main/programming languages/javascript.svg',
+      certificateUrl: '/untitled folder/HTML,CSS.png'
     },
     {
       title: 'System Thinking',
@@ -84,8 +84,8 @@ const Certifications: React.FC = () => {
       category: 'Professional',
       description: 'Systems analysis and design thinking methodology',
       badge: '🧠',
-      image: '/src/All_logo_and_pictures-main/others/brain.svg',
-      certificateUrl: '/src/untitled folder/System Thinking.png'
+      image: '/All_logo_and_pictures-main/others/brain.svg',
+      certificateUrl: '/untitled folder/SYSTEM THINKING.png'
     },
     {
       title: 'Hackathon Participation',
@@ -94,24 +94,24 @@ const Certifications: React.FC = () => {
       category: 'Competition',
       description: 'Multiple hackathon participations and innovative solutions',
       badge: '🏆',
-      image: '/src/All_logo_and_pictures-main/others/trophy.svg',
-      certificateUrl: '/src/untitled folder/IMG_4121.jpg'
+      image: '/All_logo_and_pictures-main/others/trophy.svg',
+      certificateUrl: '/untitled folder/IMG_4121.jpg'
     },
     {
       title: 'Pinnacle Internship',
       category: 'Internship',
       description: 'Completed internship at Pinnacle with outstanding achievement.',
       badge: '🏅',
-      image: '/src/All_logo_and_pictures-main/others/award.svg',
-      certificateUrl: '/src/untitled folder/e56164e2-bdbf-4032-9c8c-53d41625bafe.JPG'
+      image: '/All_logo_and_pictures-main/others/award.svg',
+      certificateUrl: '/untitled folder/e56164e2-bdbf-4032-9c8c-53d41625bafe.JPG'
     },
     {
       title: 'National Level Exhibition',
       category: 'Exhibition',
       description: 'Certificate for participation in a National Level Exhibition.',
       badge: '🎫',
-      image: '/src/All_logo_and_pictures-main/others/award.svg',
-      certificateUrl: '/src/untitled folder/IMG_4122.jpg'
+      image: '/All_logo_and_pictures-main/others/award.svg',
+      certificateUrl: '/untitled folder/IMG_4122.jpg'
     }
   ];
 
@@ -291,7 +291,7 @@ const Certifications: React.FC = () => {
                         alt={`${selectedCert.title} Certificate`}
                         className="w-full h-auto rounded-lg shadow-lg"
                         onError={(e) => {
-                          e.currentTarget.src = '/src/All_logo_and_pictures-main/others/certificate-placeholder.svg';
+                          e.currentTarget.src = '/All_logo_and_pictures-main/others/certificate-placeholder.svg';
                           e.currentTarget.alt = 'Certificate placeholder';
                         }}
                       />

@@ -5,15 +5,15 @@ import { useRef, useEffect } from 'react';
 
 const Skills: React.FC = () => {
   const technicalSkills = [
-    { name: 'Python', level: 90, iconPath: '/src/All_logo_and_pictures-main/programming languages/python.svg' },
-    { name: 'Docker', level: 85, iconPath: '/src/All_logo_and_pictures-main/cloud/docker.svg' },
-    { name: 'AWS', level: 80, iconPath: '/src/All_logo_and_pictures-main/cloud/amazon.svg' },
-    { name: 'Git/GitHub', level: 90, iconPath: '/src/All_logo_and_pictures-main/cloud/github.svg' },
-    { name: 'Linux', level: 85, iconPath: '/src/All_logo_and_pictures-main/social icons/linux.svg' },
-    { name: 'SQL', level: 80, iconPath: '/src/All_logo_and_pictures-main/databases/mysql.svg' },
-    { name: 'Streamlit', level: 85, iconPath: '/src/All_logo_and_pictures-main/Streamlit.svg' },
-    { name: 'Cryptography', level: 75, iconPath: '/src/All_logo_and_pictures-main/cryptography.svg' },
-    { name: 'Machine Learning', level: 70, iconPath: '/src/All_logo_and_pictures-main/machine_learning.svg' },
+    { name: 'Python', level: 90, iconPath: '/All_logo_and_pictures-main/programming languages/python.svg' },
+    { name: 'Docker', level: 85, iconPath: '/All_logo_and_pictures-main/cloud/docker.svg' },
+    { name: 'AWS', level: 80, iconPath: '/All_logo_and_pictures-main/cloud/amazon.svg' },
+    { name: 'Git/GitHub', level: 90, iconPath: '/All_logo_and_pictures-main/cloud/github.svg' },
+    { name: 'Linux', level: 85, iconPath: '/All_logo_and_pictures-main/social icons/linux.svg' },
+    { name: 'SQL', level: 80, iconPath: '/All_logo_and_pictures-main/databases/mysql.svg' },
+    { name: 'Streamlit', level: 85, iconPath: '/All_logo_and_pictures-main/Streamlit.svg' },
+    { name: 'Cryptography', level: 75, iconPath: '/All_logo_and_pictures-main/cryptography.svg' },
+    { name: 'Machine Learning', level: 70, iconPath: '/All_logo_and_pictures-main/machine_learning.svg' },
   ];
 
   const softSkills = [

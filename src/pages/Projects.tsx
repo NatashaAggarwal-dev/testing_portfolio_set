@@ -12,7 +12,7 @@ const Projects: React.FC = () => {
     {
       title: "Sentiment Analysis",
       github: "https://github.com/NatashaAggarwal-dev/Sentiment-Analysis.git",
-      image: "/src/All_logo_and_pictures-main/programming languages/python.svg",
+      image: "/All_logo_and_pictures-main/programming languages/python.svg",
       technologies: ["Machine Learning", "Python DataFrame", "Data Science"],
       categories: ["Python", "ML", "AI", "All"],
       description: "A sentiment analysis project using machine learning and Python data science tools."
@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
     {
       title: "gradio_app",
       github: "https://github.com/NatashaAggarwal-dev/gradio_app",
-      image: "/src/All_logo_and_pictures-main/others/json.svg",
+      image: "/All_logo_and_pictures-main/others/json.svg",
       technologies: ["Gradio", "Jupyter Notebook", "Python"],
       categories: ["Python", "Web", "All"],
       description: "A Gradio app built in Jupyter Notebook for interactive Python demos."
@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
     {
       title: "Finding_university",
       github: "https://github.com/NatashaAggarwal-dev/Finding_university",
-      image: "/src/All_logo_and_pictures-main/programming languages/python.svg",
+      image: "/All_logo_and_pictures-main/programming languages/python.svg",
       technologies: ["Streamlit", "Speech-to-Text", "Text-to-Speech", "AI"],
       categories: ["Python", "AI", "Web", "All"],
       description: "A Streamlit app using speech-to-text and text-to-speech for university search."
@@ -36,7 +36,7 @@ const Projects: React.FC = () => {
     {
       title: "Load_Balancing_project",
       github: "https://github.com/NatashaAggarwal-dev/Load_Balancing_project",
-      image: "/src/All_logo_and_pictures-main/programming languages/bash.svg",
+      image: "/All_logo_and_pictures-main/programming languages/bash.svg",
       technologies: ["AWS", "EC2", "Load Balancer", "Shell Scripting"],
       categories: ["DevOps", "Cloud", "All"],
       description: "AWS EC2 load balancing project using shell scripting."
@@ -44,7 +44,7 @@ const Projects: React.FC = () => {
     {
       title: "Crypto-network-security",
       github: "https://github.com/NatashaAggarwal-dev/Crypto-network-security",
-      image: "/src/All_logo_and_pictures-main/programming languages/python.svg",
+      image: "/All_logo_and_pictures-main/programming languages/python.svg",
       technologies: ["Cryptography", "Network Security", "Python"],
       categories: ["Python", "Security", "All"],
       description: "Cryptography and network security simulations in Python."
@@ -52,7 +52,7 @@ const Projects: React.FC = () => {
     {
       title: "Column-level-encryption-in-sql",
       github: "https://github.com/NatashaAggarwal-dev/Column-level-encryption-in-sql",
-      image: "/src/All_logo_and_pictures-main/databases/mysql.svg",
+      image: "/All_logo_and_pictures-main/databases/mysql.svg",
       technologies: ["SQL Server", "Data Encryption", "Security"],
       categories: ["Database", "Security", "All"],
       description: "Column-level encryption techniques in SQL Server."
@@ -60,7 +60,7 @@ const Projects: React.FC = () => {
     {
       title: "python-send-whatsappmsg",
       github: "https://github.com/NatashaAggarwal-dev/python-send-whatsappmsg",
-      image: "/src/All_logo_and_pictures-main/programming languages/python.svg",
+      image: "/All_logo_and_pictures-main/programming languages/python.svg",
       technologies: ["WhatsApp Automation", "Twilio", "Python Script"],
       categories: ["Python", "Automation", "All"],
       description: "Automate WhatsApp messages using Twilio and Python."
@@ -68,7 +68,7 @@ const Projects: React.FC = () => {
     {
       title: "python-phone-call",
       github: "https://github.com/NatashaAggarwal-dev/python-phone-call",
-      image: "/src/All_logo_and_pictures-main/programming languages/python.svg",
+      image: "/All_logo_and_pictures-main/programming languages/python.svg",
       technologies: ["Voice Call Automation", "Twilio", "Python"],
       categories: ["Python", "Automation", "All"],
       description: "Automate phone calls using Twilio and Python."
@@ -76,7 +76,7 @@ const Projects: React.FC = () => {
     {
       title: "python-send-email",
       github: "https://github.com/NatashaAggarwal-dev/python-send-email",
-      image: "/src/All_logo_and_pictures-main/programming languages/python.svg",
+      image: "/All_logo_and_pictures-main/programming languages/python.svg",
       technologies: ["SMTP", "Email Automation", "Python"],
       categories: ["Python", "Automation", "All"],
       description: "Send emails automatically using SMTP and Python."
@@ -84,7 +84,7 @@ const Projects: React.FC = () => {
     {
       title: "python-send-sms",
       github: "https://github.com/NatashaAggarwal-dev/python-send-sms",
-      image: "/src/All_logo_and_pictures-main/programming languages/python.svg",
+      image: "/All_logo_and_pictures-main/programming languages/python.svg",
       technologies: ["SMS API", "Twilio", "Automation"],
       categories: ["Python", "Automation", "All"],
       description: "Send SMS using Twilio API and Python."
@@ -92,7 +92,7 @@ const Projects: React.FC = () => {
     {
       title: "python-menu",
       github: "https://github.com/NatashaAggarwal-dev/python-menu",
-      image: "/src/All_logo_and_pictures-main/programming languages/python.svg",
+      image: "/All_logo_and_pictures-main/programming languages/python.svg",
       technologies: ["CLI Menu", "Python Logic"],
       categories: ["Python", "All"],
       description: "A CLI menu system built in Python."
@@ -100,7 +100,7 @@ const Projects: React.FC = () => {
     {
       title: "insta-automation",
       github: "https://github.com/NatashaAggarwal-dev/insta-automation",
-      image: "/src/All_logo_and_pictures-main/programming languages/python.svg",
+      image: "/All_logo_and_pictures-main/programming languages/python.svg",
       technologies: ["Selenium", "Automation Bot", "Instagram"],
       categories: ["Python", "Automation", "All"],
       description: "Instagram automation bot using Selenium and Python."
@@ -108,7 +108,7 @@ const Projects: React.FC = () => {
     {
       title: "CI_CD-project",
       github: "https://github.com/NatashaAggarwal-dev/CI_CD-project",
-      image: "/src/All_logo_and_pictures-main/programming languages/python.svg",
+      image: "/All_logo_and_pictures-main/programming languages/python.svg",
       technologies: ["Jenkins", "Continuous Integration", "Python"],
       categories: ["DevOps", "All"],
       description: "CI/CD project using Jenkins and Python."
@@ -116,7 +116,7 @@ const Projects: React.FC = () => {
     {
       title: "docker-inside-docker",
       github: "https://github.com/NatashaAggarwal-dev/docker-inside-docker",
-      image: "/src/All_logo_and_pictures-main/cloud/docker.svg",
+      image: "/All_logo_and_pictures-main/cloud/docker.svg",
       technologies: ["Docker Nesting", "DevOps Setup"],
       categories: ["DevOps", "All"],
       description: "Running Docker inside Docker for DevOps setups."
@@ -124,7 +124,7 @@ const Projects: React.FC = () => {
     {
       title: "system-md-docker",
       github: "https://github.com/NatashaAggarwal-dev/system-md-docker",
-      image: "/src/All_logo_and_pictures-main/cloud/docker.svg",
+      image: "/All_logo_and_pictures-main/cloud/docker.svg",
       technologies: ["Dockerfile", "System Configuration"],
       categories: ["DevOps", "All"],
       description: "System configuration using Dockerfile."
@@ -132,7 +132,7 @@ const Projects: React.FC = () => {
     {
       title: "apache-on-Redhat-ubi8",
       github: "https://github.com/NatashaAggarwal-dev/apache-on-Redhat-ubi8",
-      image: "/src/All_logo_and_pictures-main/others/html.svg",
+      image: "/All_logo_and_pictures-main/others/html.svg",
       technologies: ["Apache Setup", "Redhat", "HTML Config"],
       categories: ["Web", "All"],
       description: "Apache setup on Redhat UBI8 with HTML configuration."
@@ -140,7 +140,7 @@ const Projects: React.FC = () => {
     {
       title: "docker-python-demo",
       github: "https://github.com/NatashaAggarwal-dev/docker-python-demo",
-      image: "/src/All_logo_and_pictures-main/cloud/docker.svg",
+      image: "/All_logo_and_pictures-main/cloud/docker.svg",
       technologies: ["Python Docker Setup", "Testing"],
       categories: ["DevOps", "All"],
       description: "Demo for running Python in Docker."
@@ -148,7 +148,7 @@ const Projects: React.FC = () => {
     {
       title: "kubernetes",
       github: "https://github.com/NatashaAggarwal-dev/kubernetes",
-      image: "/src/All_logo_and_pictures-main/programming languages/python.svg",
+      image: "/All_logo_and_pictures-main/programming languages/python.svg",
       technologies: ["Kubernetes Basics", "Python"],
       categories: ["DevOps", "Cloud", "All"],
       description: "Kubernetes basics with Python."
@@ -156,7 +156,7 @@ const Projects: React.FC = () => {
     {
       title: "ai-azure-beautiful_soup",
       github: "https://github.com/NatashaAggarwal-dev/ai-azure-beautiful_soup",
-      image: "/src/All_logo_and_pictures-main/programming languages/python.svg",
+      image: "/All_logo_and_pictures-main/programming languages/python.svg",
       technologies: ["Azure Cloud", "Web Scraping", "BeautifulSoup"],
       categories: ["Python", "Cloud", "All"],
       description: "Web scraping with BeautifulSoup on Azure Cloud."
@@ -164,7 +164,7 @@ const Projects: React.FC = () => {
     {
       title: "AI-OWN_TOOL",
       github: "https://github.com/NatashaAggarwal-dev/AI-OWN_TOOL",
-      image: "/src/All_logo_and_pictures-main/programming languages/python.svg",
+      image: "/All_logo_and_pictures-main/programming languages/python.svg",
       technologies: ["Custom AI Tools", "Python Scripting"],
       categories: ["Python", "AI", "All"],
       description: "Custom AI tools built with Python scripting."
@@ -172,7 +172,7 @@ const Projects: React.FC = () => {
     {
       title: "linkedin_Shell_tool",
       github: "https://github.com/NatashaAggarwal-dev/linkedin_Shell_tool",
-      image: "/src/All_logo_and_pictures-main/programming languages/python.svg",
+      image: "/All_logo_and_pictures-main/programming languages/python.svg",
       technologies: ["Shell Automation", "LinkedIn Bot"],
       categories: ["Python", "Automation", "All"],
       description: "Shell automation tool for LinkedIn using Python."
